@@ -1,0 +1,335 @@
+body{
+    background-color: #160534;
+    color:white;
+}
+
+h1{
+    font-size: 40px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:white;
+
+}
+#intro {
+    font-family: Arial;
+    line-height:3;
+
+}
+
+.social-icons {
+    
+    line-height: 5;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin: 5px;
+    color: #cccccc;
+    transition: color 0.3s;
+}
+
+#about p {
+    color: rgb(142, 142, 246);
+    text-align: justify;
+    width: 900px;
+}
+
+#picture {
+  position: absolute;
+  top: 70px;
+  right: 80px;
+}
+
+.picture-me {
+  position: relative;
+  width: 380px;
+  height: auto;
+}
+
+.picture-me img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  transition: opacity 0.5s ease;
+}
+
+.picture-me .hover-img {
+  opacity: 0;
+}
+
+.picture-me:hover .hover-img {
+  opacity: 1;
+}
+
+.picture-me:hover .default-img {
+  opacity: 0;
+}
+
+
+#skills{
+    padding:20px;
+}
+#skills ul{
+    color:rgb(155, 255, 255);
+    text-align:justify;
+    padding:20px;
+}
+
+/* #tech {
+    position:relative;
+    left:500px;
+    padding:30px;
+} */
+
+ .projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Main card style */
+.project-card {
+  position: relative;
+  height: 350px;
+  border-radius: 10px;
+  overflow:hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Hover animation */
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+/* The overlay content */
+.project-info {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 17, 40, 0.95);
+  color: #ccd6f6;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  overflow-y: auto;
+}
+
+.project-card:hover .project-info {
+  opacity: 1;
+}
+
+.project-info h3 {
+  color: #ff9f1c;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.project-info a {
+  color: #64ffda;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-info a:hover {
+  text-decoration: underline;
+}
+
+/* Background images per project */
+.helpdesk {
+  background-image: url("../images/help-desk.webp");
+  
+}
+
+.bookstore {
+  background-image: url("../images/bookstore.jpg");
+}
+
+.calculator {
+  background-image: url("../images/calc.avif");
+}
+
+.replacement {
+  background-image: url("../images/replacement.jpg");
+}
+
+.cicd {
+  background-image: url("../images/python.webp");
+}
+
+.digit-recognition {
+  background-image: url("../images/digit.webp");
+}
+
+.pipes-project {
+    background-image: url("../images/pipes.jpg");
+
+
+}
+.project-card.helpdesk:hover .project-info {
+  background-color: rgba(30, 58, 95, 0.9); /* Blueish overlay */
+}
+
+.project-card.bookstore:hover .project-info {
+  background-color: rgba(200, 50, 50, 0.9); /* Redish overlay */
+}
+
+.project-card.calculator:hover .project-info {
+  background-color: rgba(155, 54, 4, 0.9); /* Orange overlay */
+}
+
+.project-card.replacement:hover .project-info {
+  background-color: rgba(128, 0, 128, 0.9); /* Purple overlay */
+}
+
+.project-card.cicd:hover .project-info {
+  background-color: rgba(0, 128, 0, 0.9); /* Green overlay */
+}
+
+.project-card.digit-recognition:hover .project-info {
+  background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
+}
+
+.project-card.pipes-project:hover .project-info {
+    background-color: rgba(30, 58, 95, 0.9);
+}
+
+
+
+#presentations h2{
+    line-height:90px;
+}
+
+.projects-quantum {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.projects-quantum {
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    align-items: stretch;
+}
+
+.projects-quantum:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+.projects-quantum h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+   
+}
+
+.projects-quantum p {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.projects-quantum a {
+    color: #64ffda;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects-quantum a:hover {
+    text-decoration: underline;
+}
+
+/* Background solid colors for quantum cards */
+
+.project-card.quantum-impact {
+    background-color: #6900c0;
+}
+
+.project-card.quantum-ai {
+    background-color: #1040dd;
+}
+
+.project-card.blog-article1 {
+    background-color: #e69fd4; 
+    color:rgb(163, 54, 72)
+}
+
+.project-card.blog-article2 {
+    background-color: #d2fa91; 
+    color:rgb(43, 67, 7)
+}
+
+.project-card.blog-article3 {
+    background-color: #99acff;
+    color:#ffffff 
+}
+
+#hobbies h2 {
+margin-top: 80px;
+
+}
+.hobby-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.hobby-text {
+  flex: 1;
+  min-width: 300px;
+  color: #ccd6f6;
+  font-size: 20px;
+  line-height: 2,5;
+  font-family:Arial;
+  
+
+}
+
+.hobby-video video {
+  width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+/* Back-to-top button styling */
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px 20px;
+  background-color: #ff9f1c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#topBtn:hover {
+  background-color: #e06c00;
+}
