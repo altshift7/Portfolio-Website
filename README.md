@@ -112,15 +112,6 @@ A fun and honest article about my late start in coding and how I bridged the gap
 
 ---
 
-##  Connect with Me
-
-[![GitHub](images/github.png)](https://github.com/altshift7)
-[![LinkedIn](images/linkedin1.webp)](https://www.linkedin.com/in/athoydebnath/)
-[![Medium](images/medium.png)](https://medium.com/@athoydebnath)
-[![Instagram](images/insta1.webp)](https://instagram.com/athoy_debnath)
-[![Facebook](images/facebooklogo.png)](https://facebook.com/athoydebnath)
-
----
 
 ##  Folder Structure
 
