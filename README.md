@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website — a responsive and visually dynamic web space built using **HTML**, **CSS**, and **JavaScript**. This portfolio showcases my technical skills, projects, blog articles, and creative interests in one unified experience.
 
-![Portfolio Screenshot](images/image1.png) <!-- Replace with deployed site screenshot if possible -->
+
 
 ---
 
@@ -59,36 +59,13 @@ I’m **Athoy Debnath**, a Computer Engineering student at **Budapest University
 
 ##  Project Highlights
 
-###  Helpdesk Ticketing System
-A web-based system for ticket creation, assignment, and tracking.  
-**Tech Stack:** Node.js, MySQL
 
-###  Online Bookstore System
-A modular backend system for an online bookstore, with unit testing.  
-**Tech Stack:** Java, JUnit
-
-###  Scientific Calculator
-Supports algebra, trig, logs, vectors, conversions, and matrices.  
-**Tech Stack:** C, C++, Java  
-[ GitHub](https://github.com/altshift7/Scientific-Calculator)
-
-###  Replacement Services for Budapest Public Transport
-Custom Java tool to model diversion routes, close stations, and edit lines.  
-**Tech Stack:** Java, Git, GitHub  
-[ GitHub](https://github.com/altshift7/Replacement-Services)
-
-###  CI/CD Pipeline Automation
-Automated testing pipeline with GitHub Actions and Pytest.  
-**Tech Stack:** Python, Pytest, GitHub Actions  
-[ GitHub](https://github.com/altshift7/todo_project)
-
-###  Handwritten Digit Recognition
-ML model trained on MNIST with 95%+ accuracy using SVM.  
-**Tech Stack:** Python, scikit-learn
-
-###  Pipes in the Desert
-Collaborative project involving class, sequence, and use case diagrams.  
-**Tech Stack:** Java
+- ** Scientific Calculator** – C, C++, Java  
+- ** Budapest Transport Tool** – Java  
+- ** CI/CD Automation** – Python + GitHub Actions  
+- ** Online Bookstore Backend** – Java + JUnit  
+- ** Digit Recognition ML Model** – Python + scikit-learn  
+- [View Projects on GitHub »](https://github.com/altshift7)
 
 ---
 
